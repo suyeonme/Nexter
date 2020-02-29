@@ -11,8 +11,8 @@
     border: none;
     border-radius: 0;
     background-color: #fff;
-    width: 4.5rem;
-    height: 2px;
+    width: 4rem;
+    height: 3px;
 
     margin-top: 4rem;
 
@@ -21,10 +21,10 @@
         content: "";
         display: block;
         background-color: #fff;
-        width: 4.5rem;
-        height: 2px;
+        width: 4rem;
+        height: 3px;
     }
 
-    &::before { transform: translateY(-1.5rem); }
-    &::after { transform: translateY(1.3rem); }
+    &::before { transform: translateY(-1.2rem); }
+    &::after { transform: translateY(.9rem); }
 }
