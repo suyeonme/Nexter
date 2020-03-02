@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(7, 5vw);     // "vw" specifies height of row
+    //grid-template: repeat(7, 5vw) / repeat(8, 1fr);   Shorthand : row / column
     grid-gap: 1.5rem;
 
     padding: 1.5rem;
